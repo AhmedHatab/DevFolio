@@ -1,0 +1,301 @@
+#sec_1{
+    background:linear-gradient(rgba(8, 8, 8, 0.527) ,rgba(7, 7, 7, 0.555)) ,url(../images/img01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+#sec_1 nav{
+    background-color: rgba(0, 0, 0, 0.863);
+}
+#sec_1 nav ul li a{
+    color: #ffffff ;
+    font-size: 18px ;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+#sec_1 nav ul li a:hover{
+    box-shadow: inset 0 -1px 0 0 #fff, inset 0 -2.3px 0 0 rgb(227, 233, 227);
+}
+#sec_1 .dropdown-menu li a{
+    color: black;
+}
+#sec_1 .dropdown-menu li a:hover{
+    box-shadow: none;
+    color: rgb(53, 101, 163);
+    background-color: transparent;
+}
+
+#sec_1 .info h1{
+    color: #ffffff;
+    font-size: 4.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sec_1 .info h2{
+    color: #ffffff;
+	font-size: 3em;
+    font-weight: bold;
+	border-right: 5px solid #ffffff;
+	margin: 20px;
+	animation-name: letter_anima;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	overflow: hidden;
+	height: 50px;
+	letter-spacing: -3px;
+}
+@keyframes letter_anima {
+	0% {width: 0px;}
+	100% {width: 315px;}
+}
+/* ------------------------------------------- */
+
+#sec_2,#sec_3{
+    background-color: #f5f5f5;
+}
+#sec_2 div>span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+#sec_2 .progress{
+    margin-bottom: 15px;
+}
+#sec_2 h2::after{
+    content: "";
+    display: block;
+    width: 97px;
+    height: 3px;
+    background-color: #0d6efd;
+    margin: 11px 0 40px;
+}
+#sec_2 ._about p{
+    line-height: 1.7;
+    font-size: 19px;
+}
+
+/* ------------------------------------ */
+#sec_3 .text-center>h2 ,#sec_5 .text-center>h2 ,#sec_7 .text-center>h2{
+    font-size: 3em;
+    font-weight: bolder;
+}
+#sec_3 .text-center>p::after ,#sec_5 .text-center>p::after ,#sec_7 .text-center>p::after{
+    content: "";
+    display: block;
+    width: 37px;
+    height: 5px;
+    background-color: #0d6efd;
+    margin: 13px auto;
+}
+#sec_3 .card span{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 1s;
+}
+#sec_3 .card span i{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 95px;
+    text-align: center;
+}
+#sec_3 .card:hover span{
+    border: 10px solid #36cbe6b9;
+    background-color: #0d6efd;
+    color: #fff;
+}
+/* -------------------------- */
+#sec_4{
+    background:linear-gradient(hsla(212, 100%, 50%, 0.699),hsla(212, 100%, 50%, 0.74)) ,url(../images/img03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#sec_4 .card{
+    background-color: transparent;
+    border: none;
+}
+
+#sec_4 .row{
+    padding: 100px 0;
+}
+#sec_4 .card span i{
+    border-radius: 50%;
+    padding: 25px;
+    border: 10px solid #c5d6e9;   
+    font-size: 20px;
+}
+/* -------------------------------------- */
+#sec_5 .fa-plus{
+    border: 2px solid #0d6efd;
+    color: #0d6efd;
+    padding: 7px 8px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+#sec_5 .card{
+    margin-top: 40px;
+}
+#sec_5 ._img{
+    overflow: hidden;
+}
+#sec_5 .card img{
+    transition: all 1.3s;
+}
+
+#sec_5 .card:hover img{
+    transform: scale(1.5);
+}
+#sec_5 .card-body{
+    margin-top : 11px;
+}
+/* -------------------------------------- */
+
+#sec_6 ,#sec_8{
+    background:linear-gradient(hsla(212, 48%, 36%, 0.795),hsla(212, 70%, 56%, 0.74)) ,url(../images/img10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#sec_6 i{
+    font-size: 10px;
+    margin: 0 3px;
+}
+#sec_6 i:last-of-type{
+    color: #949ba3;
+
+}
+/* ----------------------------------------------------------------- */
+
+#sec_7{
+    background-color: #f5f5f5;
+}
+#sec_7 .badge{
+    display: inline-block;
+    transform: translateY(-17px);
+    padding: 10px 13px;
+}
+#sec_7 .card-footer img{
+    width: 33px;
+    margin-right: 5px;
+}
+/* -------------------------------------------- */
+#sec_8 h2{
+    margin-bottom:37px;
+    margin-top: 15px;
+}
+#sec_8 h2::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 87px;
+    background-color: #0d6efd;
+    margin-top:9px;
+}
+#sec_8 .form-group button{
+    transition: all 1s;
+}
+#sec_8 .form-group button:hover{
+    background-color: #3d85c9;
+    outline: 3px solid #79b3c5d8;
+    
+}
+#sec_8 p{
+    font-size: 19px;
+    line-height: 1.7;
+    color: #4b4c4d;
+
+}
+#sec_8 ._socil span{
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    border: 3px solid #0d6efd;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 1s;
+    margin-left: 5px;
+}
+#sec_8 ._socil span:hover{
+    background-color: #3d85c9;
+    border: 3px solid #79b3c5d8;
+    color: white;
+}
+#sec_8 ._socil span i{
+    font-size: 19px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+/* Media Queries ----------------------------------------------------------------- */
+
+
+/* Desktop specific */
+@media (max-width: 979px) 
+{
+    #sec_1 .info h1{
+        font-size: 3em;
+    }
+    
+    #sec_1 .info h2{
+        font-size: 2em;
+        height: 40px;
+    }
+    @keyframes letter_anima {
+        0% {width: 0px;}
+        100% {width: 192px;}
+    }
+    
+  
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) 
+{ 
+	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) 
+{
+    #sec_1 .info h1{
+        font-size: 2.3em;
+    }
+    
+    #sec_1 .info h2{
+        font-size: 1.5em;
+        height: 30px;
+    }
+    @keyframes letter_anima {
+        0% {width: 0px;}
+        100% {width: 131px;}
+    }
+	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) 
+{
+	
+}
